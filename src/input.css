@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&display=swap");
+@import "tailwindcss";
+
+html {
+  font-size: clamp(14px, 9px + 0.4vw, 16px);
+  scroll-behavior: smooth;
+}
+@theme inline {
+  --font-body: "Jost", sans-serif;
+  --font-heading: "Merienda", cursive;
+
+  --color-hunter-50: #f4f6f3;
+  --color-hunter-100: #e6eae1;
+  --color-hunter-200: #cdd5c5;
+  --color-hunter-300: #a9b79e;
+  --color-hunter-400: #809473;
+  --color-hunter-500: #5f7653;
+  --color-hunter-600: #495d3e;
+  --color-hunter-700: #3a4a32;
+  --color-hunter-800: #2f3c29;
+  --color-hunter-900: #273222;
+  --color-hunter-950: #1a2217;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+@layer utilities {
+  .scrollHide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollHide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    @apply size-2.5 mx-5 cursor-pointer;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    @apply rounded-3xl bg-white/30  cursor-pointer;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply rounded-2xl border-2  cursor-pointer;
+  }
+}
+@media (max-width: 1023.98px) {
+  html {
+    font-size: clamp(13px, 9px + 0.4vw, 16px) !important;
+  }
+}

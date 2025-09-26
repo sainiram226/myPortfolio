@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  " />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+  <link rel="stylesheet" href="output.css" />
+</head>
+
+<body class="bg-hunter-950 text-white font-body">
+  <!-- Header start -->
+  <header class="flex justify-between items-center p-4 border-b mx-2 border-hunter-700">
+    <!-- // Logo -->
+    <a href="PortFolio" class="text-3xl font-bold font-heading text-white m-4">
+      Portfolio
+    </a>
+    <!-- // Navbar -->
+    <nav>
+      <ul class="md:flex hidden space-x-4 gap-1">
+        <li>
+          <a href="#home"
+            class="font-semibold text-start text-lg relative z-0 hover:text-white transition-all duration-150 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-150 before:h-full before:-z-10 before:skew-x-12 before:bg-hunter-700 before:bottom-0 before:right-0 hover:before:left-0 px-5 py-3">Home</a>
+        </li>
+        <li>
+          <a href="#myProjects"
+            class="font-semibold text-start text-lg relative z-0 hover:text-white transition-all duration-150 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-150 before:h-full before:-z-10 before:skew-x-12 before:bg-hunter-700 before:bottom-0 before:right-0 hover:before:left-0 px-5 py-3">My
+            Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Contacts -->
+    <div class="flex gap-5 font-heading text-lg max-md:hidden">
+      <a href="https://www.linkedin.com/in/ram-saini-81265023b" target="_blank">Lnkedin</a>
+      <span>/</span>
+      <a href=" https://wa.me/7889116986" target="_blank">Whatsapp</a>
+    </div>
+
+    <!-- Main Menu -->
+    <div class="relative z-0 md:hidden">
+      <button onclick="toggleMenu()"
+        class="size-14 rounded-full flex justify-center items-center border border-white/30">
+
+        <i class="ph ph-list text-3xl"></i>
+      </button>
+      <div id="menu" onmouseleave="toggleMenu()"
+        class="grid grid-rows-[0fr] min-w-[270px] [.open]:grid-rows-[1fr] transition-all duration-200 absolute top-0 right-0 p-4 md:hidden z-[999] ">
+        <div class="overflow-hidden w-full">
+          <ul class="bg-white/5 backdrop-blur-md rounded-lg w-full gap-2 md:hidden p-2 text-hunter-200">
+            <li class="w-full">
+              <a href="#home"
+                class="block font-semibold text-start text-lg relative z-0 hover:text-white transition-all duration-150 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-150 before:h-full before:-z-10 before:skew-x-12 before:bg-hunter-700 before:bottom-0 before:right-0 hover:before:left-0 px-5 py-3">Home</a>
+            </li>
+            <li class="w-full">
+              <a href="#myProjects"
+                class="block font-semibold text-start text-lg relative z-0 hover:text-white transition-all duration-150 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-150 before:h-full before:-z-10 before:skew-x-12 before:bg-hunter-700 before:bottom-0 before:right-0 hover:before:left-0 px-5 py-3">My
+                Projects</a>
+            </li>
+            <li class="w-full">
+              <a href="https://www.linkedin.com/in/ram-saini-81265023b" target="_blank"
+                class="block font-semibold text-start text-lg relative z-0 hover:text-white transition-all duration-150 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-150 before:h-full before:-z-10 before:skew-x-12 before:bg-hunter-700 before:bottom-0 before:right-0 hover:before:left-0 px-5 py-3">Lnkedin</a>
+            </li>
+            <li class="w-full">
+              <a href=" https://wa.me/7889116986" target="_blank"
+                class="block font-semibold text-start text-lg relative z-0 hover:text-white transition-all duration-150 before:absolute before:w-0 hover:before:w-full before:transition-[width] before:duration-150 before:h-full before:-z-10 before:skew-x-12 before:bg-hunter-700 before:bottom-0 before:right-0 hover:before:left-0 px-5 py-3">
+                Whatsapp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header end << -->
+
+  <!-- Landing Area start -->
+  <section id="home" class="flex items-center justify-between lg:py-16 py-24 gap-8 lg:min-h-[calc(100vh_-_100px)]">
+    <div class="container mx-auto text-center">
+      <h1>
+        <div class="flex justify-between items-center w-fit mx-auto gap-5">
+          <span data-aos="fade-right" data-aos-easing="ease-out-cubic"
+            class="2xl:text-[12.5rem] xl:text-[11.5rem] lg:text-[9rem] md:text-[7rem] sm:text-[5rem] text-[2rem] font-heading font-bold text-shadow-lg text-nowrap">Welcome
+            To</span>
+          <span data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="200"
+            class="slash block lg:h-[12.5rem] md:h-[7rem] sm:h-[4rem] h-[3rem] w-[1px] rotate-12 bg-hunter-600 lg:mx-10"></span>
+          <span data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="300"
+            class="text-[1rem] font-heading font-bold text-shadow-lg">Smooth <br />
+            Eexperience</span>
+        </div>
+        <div class="flex justify-between items-center w-fit mx-auto gap-5">
+          <span data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="400"
+            class="text-[1rem] font-heading font-bold text-shadow-lg">Responsive <br />
+            UI Design</span>
+          <span data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="500"
+            class="slash block lg:h-[12.5rem] md:h-[7rem] sm:h-[4rem] h-[3rem] w-[1px] rotate-12 bg-hunter-600 lg:mx-10"></span>
+          <span data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-delay="600"
+            class="2xl:text-[12.5rem] xl:text-[11.5rem] lg:text-[9rem] md:text-[7rem] sm:text-[5rem] text-[2rem] font-heading font-bold text-shadow-lg text-nowrap">My
+            Portfolio</span>
+        </div>
+      </h1>
+    </div>
+  </section>
+  <!-- Landing Area end << -->
+
+  <!-- MeCabs -->
+  <section id="myProjects" class="py-24 bg-zinc-300">
+    <div class="container mx-auto px-4">
+      <div class="flex items-start justify-between mb-16 flex-col md:flex-row gap-10">
+        <div class="text-start">
+          <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" class="text-5xl font-semibold mb-5 text-hunter-700">
+            Mecabs Texi booking app
+          </h3>
+          <p data-aos="fade-up" data-aos-easing="ease-out-cubic" class="text-2xl opacity-75 text-hunter-700 mb-0">
+            Taxi booking app for easy, fast, and reliable rides online.
+          </p>
+        </div>
+        <a data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200" href="https://www.mecabs.com.au"
+          target="_blank"
+          class="inline-block px-6 py-3 bg-hunter-700 text-white rounded-lg font-semibold hover:bg-hunter-900 transition-colors duration-150 whitespace-nowrap">Visit
+          Website</a>
+      </div>
+      <div class="flex flex-wrap justify-center items-stretch gap-10 md:flex-row flex-col mb-10">
+        <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
+          class="bg-zinc-300 flex-[2_1_0%] rounded-[15px] overflow-hidden shadow-xl">
+          <img src="./images/meCabsWeb.webp" alt="Site Image" class="w-full h-[650px] object-cover object-top" />
+        </div>
+        <div data-aos="fade-up" data-aos-easing="ease-out-cubic" class="flex-1 basis-80 grow-0">
+          <div class="bg-zinc-300 rounded-[15px] overflow-hidden">
+            <img src="./images/meCabsMobile.webp" alt="Site Image" class="w-full h-[650px] object-contain object-top" />
+          </div>
+        </div>
+      </div>
+      <p data-aos="fade-up" data-aos-easing="ease-out-cubic" class="text-2xl opacity-75 text-hunter-700 mb-0">
+        MeCabs is a comprehensive cab booking management system designed to streamline ride-hailing operations. It
+        features an advanced location calculation system that ensures accurate pickup and drop-off points for users. The
+        platform offers seamless booking tracking, allowing customers to monitor their ride status in real-time. With
+        its intuitive interface, MeCabs simplifies the process of booking, managing, and tracking cabs for both users
+        and drivers. The system enhances reliability and efficiency, making it easier to coordinate rides and improve
+        customer satisfaction. MeCabs is ideal for anyone seeking a fast, secure, and user-friendly taxi booking
+        experience.
+      </p>
+    </div>
+  </section>
+
+  <!-- Myvedaan -->
+  <section class="py-24 bg-zinc-100">
+    <div class="container mx-auto px-4">
+      <div class="text-start">
+        <div class="flex items-start justify-between mb-5 flex-col md:flex-row gap-10">
+          <h3 data-aos="fade-right" data-aos-easing="ease-out-cubic" class="text-5xl font-semibold text-hunter-700">
+            My Vedaan - MLM menagement
+          </h3>
+          <a data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200" href="https://www.myvedaan.com/"
+            target="_blank"
+            class="inline-block px-6 py-3 bg-hunter-700 text-white rounded-lg font-semibold hover:bg-hunter-900 transition-colors duration-150 whitespace-nowrap">Visit
+            Website</a>
+        </div>
+        <p data-aos="fade-right" data-aos-easing="ease-out-cubic" class="text-2xl opacity-75 text-hunter-700 mb-16">
+          Advanced MLM Management System offering automated reward
+          distribution, a complete e-commerce platform, and powerful franchise
+          management for streamlined operations and scalable growth.
+          Effortlessly manage sales, commissions, and network expansion with
+          intuitive dashboards and secure, user-friendly tools.
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center items-stretch gap-10 md:flex-row-reverse flex-col">
+        <div data-aos="fade-left" data-aos-easing="ease-out-cubic"
+          class="flex-[2_1_0%] rounded-[15px] overflow-hidden shadow-xl">
+          <img src="./images/vedaanWeb.webp" alt="Site Image" class="w-full h-[650px] object-cover object-top" />
+        </div>
+        <div class="flex-1 basis-80 grow-0">
+          <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200"
+            class="rounded-[15px] overflow-hidden">
+            <img src="./images/vedaanMobile.webp" alt="Site Image" class="w-full h-[650px] object-contain object-top" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Techdevise -->
+  <section class="py-24 bg-zinc-300">
+    <div class="container mx-auto px-4">
+      <div class="flex items-start justify-between mb-16 flex-col md:flex-row gap-10">
+        <div class="text-start">
+          <h3 data-aos="fade-right" data-aos-easing="ease-out-cubic"
+            class="text-5xl font-semibold mb-5 text-hunter-700">
+            Techdevise - IT Solutions
+          </h3>
+          <p data-aos="fade-right" data-aos-easing="ease-out-cubic" class="text-2xl opacity-75 text-hunter-700 mb-0">
+            IT solutions provider for businesses, offering expert services in
+            software development, network management, and cybersecurity to
+            enhance operational efficiency and protect digital assets.
+          </p>
+        </div>
+        <a data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200" href="https://www.techdevise.com/"
+          target="_blank"
+          class="inline-block px-6 py-3 bg-hunter-700 text-white rounded-lg font-semibold hover:bg-hunter-900 transition-colors duration-150 whitespace-nowrap">Visit
+          Website</a>
+      </div>
+      <div class="flex flex-wrap justify-center items-stretch gap-10 md:flex-row flex-col">
+        <div data-aos="fade-right" data-aos-easing="ease-out-cubic"
+          class="bg-zinc-300 flex-[2_1_0%] rounded-[15px] overflow-hidden shadow-xl">
+          <img src="./images/techdeviseWeb.webp" alt="Site Image" class="w-full h-[650px] object-cover object-top" />
+        </div>
+        <div class="flex-1 basis-80 grow-0">
+          <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200"
+            class="bg-zinc-300 rounded-[15px] overflow-hidden">
+            <img src="./images/techdeviseMobile.webp" alt="Site Image"
+              class="w-full h-[650px] object-contain object-top" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  Chandigarh Literary Society -->
+  <section class="py-24 bg-zinc-100">
+    <div class="container mx-auto px-4">
+      <div class="text-start">
+        <div class="flex items-start justify-between mb-5 flex-col md:flex-row gap-10">
+          <h3 data-aos="fade-right" data-aos-easing="ease-out-cubic" class="text-5xl font-semibold text-hunter-700">
+            Chandigarh Literary Society
+          </h3>
+          <a data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200"
+            href="https://chandigarhliterarysociety.org/" target="_blank"
+            class="inline-block px-6 py-3 bg-hunter-700 text-white rounded-lg font-semibold hover:bg-hunter-900 transition-colors duration-150 whitespace-nowrap">Visit
+            Website</a>
+        </div>
+        <p data-aos="fade-right" data-aos-easing="ease-out-cubic" class="text-2xl opacity-75 text-hunter-700 mb-16">
+          Chandigarh Literary Society is a vibrant community dedicated to
+          promoting literature and fostering a love for reading and writing.
+          Through engaging events, workshops, and discussions, we aim to
+          connect literary enthusiasts, support emerging writers, and celebrate
+          the rich tapestry of literary arts in Chandigarh and beyond.
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center items-stretch gap-10 md:flex-row-reverse flex-col">
+        <div data-aos="fade-left" data-aos-easing="ease-out-cubic"
+          class="flex-[2_1_0%] rounded-[15px] overflow-hidden shadow-xl">
+          <img src="./images/chandigarhliterarysocietyWeb.webp" alt="Site Image"
+            class="w-full h-[650px] object-cover object-top" />
+        </div>
+        <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-delay="200" class="flex-1 basis-80 grow-0">
+          <div class="rounded-[15px] overflow-hidden">
+            <img src="./images/chandigarhliterarysocietyMObile.webp" alt="Site Image"
+              class="w-full h-[650px] object-contain object-top" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shashank Mani - -->
+  <section class="py-24 bg-zinc-300">
+    <div class="container mx-auto px-4">
+      <div class="flex items-start justify-between mb-16 flex-col md:flex-row gap-10">
+        <div class="text-start">
+          <h3 data-aos="fade-right" data-aos-easing="ease-out-cubic"
+            class="text-5xl font-semibold mb-5 text-hunter-700">
+            Shashank Mani - Personal Portfolio - Book Author
+          </h3>
+          <p data-aos="fade-right" data-aos-easing="ease-out-cubic" class="text-2xl opacity-75 text-hunter-700 mb-0">
+            Personal portfolio website showcasing the works and achievements
+            of Shashank Mani, a renowned book author known for his captivating
+            storytelling and literary contributions.
+          </p>
+        </div>
+        <a data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200"
+          href="https://www.shashankmani.in/" target="_blank"
+          class="inline-block px-6 py-3 bg-hunter-700 text-white rounded-lg font-semibold hover:bg-hunter-900 transition-colors duration-150 whitespace-nowrap">Visit
+          Website</a>
+      </div>
+      <div class="flex flex-wrap justify-center items-stretch gap-10 md:flex-row flex-col">
+        <div data-aos="fade-right" data-aos-easing="ease-out-cubic"  class="bg-zinc-300 flex-[2_1_0%] rounded-[15px] overflow-hidden shadow-xl">
+          <img src="./images/shashankWeb.webp" alt="Site Image" class="w-full h-[650px] object-cover object-top" />
+        </div>
+        <div class="flex-1 basis-80 grow-0">
+          <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="200"  class="bg-zinc-300 rounded-[15px] overflow-hidden">
+            <img src="./images/shashankMobile.webp" alt="Site Image"
+              class="w-full h-[650px] object-contain object-top" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact flex gap-5 font-heading text-lg justify-center my-10">
+    <a href="https://www.linkedin.com/in/ram-saini-81265023b" target="_blank">Lnkedin</a>
+    <span>/</span>
+    <a href=" https://wa.me/7889116986" target="_blank">Whatsapp</a>
+    <span>/</span>
+    <a href="tel: +91 7889116986" target="_blank">Call Me</a>
+
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-hunter-900 text-white py-6 text-center">
+    <p>&copy; 2024 Ram Saini. All rights reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 800,
+    });
+  </script>
+  <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
